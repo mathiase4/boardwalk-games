@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Macondo&family=Inter&display=swap');
+
+/* Test: Bakgrundsfärg */
+body {
+  
+  font-family: "Inter", sans-serif;
+}
+
+/* Test: Rubrik-typsnitt */
+h1 {
+  font-family: "Macondo", cursive;
+  
+}
+
