@@ -77,3 +77,33 @@ background-color: var(--primary-color);
   border: 2px solid white;
   background: lightgray;
 }
+  /* Media queries */
+  /* mediium devices (tablets, 768px and up) */
+  @media screen and (min-width: 768px) {
+    /* make all service cards the same height for consistency */
+    #services .card-body {
+      min-height: 191px;
+    }
+  }
+  /* large devices (tablets, 992px and up) */
+  @media screen and (min-width: 992px) {
+    /* make all service cards the same height for consistency */
+    #services .card-body {
+      min-height: auto;
+    }
+  }
+   /* xl devices (tablets, 1200px and up) */
+   @media screen and (min-width: 1200px) {
+    /* make all service cards the same height for consistency */
+    #services .card-body {
+      min-height: 220åx;
+    }
+  }
+
+   /* xxl devices (tablets, 1400px and up) */
+   @media screen and (min-width: 1400px) {
+    /* make all service cards the same height for consistency */
+    #services .card-body {
+      min-height: 195px;
+    }
+  }
