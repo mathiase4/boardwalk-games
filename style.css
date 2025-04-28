@@ -22,10 +22,17 @@ h2,
 h3 {
     font-family: var(--secondary-font);
     color: var(--primary-color);
-    text-transform: uppercase;
+    
 
 }
+h2 {
+   margin-bottom: 2rem;
+}
 
+h1,
+h2 {
+  text-transform: uppercase;
+}
 .sub-heading-color {
     color: var(--highlight-color);
 }
@@ -46,8 +53,17 @@ background-color: var(--primary-color);
 
 /*header*/
 
-#header {
+#header .lead {
   font-family: var(--secondary-font);
+}
+/* services */
+#services .card-footer {
+  font-weight: bold;
+  color: var(--highlight-color);
+  background-color: transparent;
+}
+#services .card {
+  margin-bottom: 1.5rem;
 }
 
 /*.container ,
