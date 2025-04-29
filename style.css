@@ -11,6 +11,7 @@
     --highlight-color-light: #7a9fc2; /* light blue */
 }
 
+
 /* Global styles */
 
 body {
@@ -25,8 +26,12 @@ h3 {
     
 
 }
+
 h2 {
    margin-bottom: 2rem;
+}
+.custom-text {
+ color: white
 }
 
 h1,
@@ -48,14 +53,22 @@ background-color: var(--primary-color);
 }
 #navbar .logo {
 
-    width: 30px;px;
+    width: 30px;
 }
-/*buttons */
-..custom-button-filled {
+/* buttons */
+
+.custom-button-filled {
   border: 2px solid var(--highlight-color);
   background-color: var(--highlight-color);
   color: white;
 }
+
+.custom-button-filled:hover {
+  border: 2px solid var(--secondary-color);
+  background-color: var(--secondary-color);
+  color: white;
+}
+
 .custom-button-outline {
   border: 3px solid var(--highlight-color);
   padding: 7px 25px;
@@ -65,12 +78,6 @@ background-color: var(--primary-color);
 .custom-button-outline:hover {
   background-color: var(--highlight-color);
   color: white
-}
-
-.custom-button-filled:hover {
-  border: 2px solid var(--secondary-color);
-  background-color: var(--secondary-color);
-  color: white;
 }
 /*header*/
 
@@ -116,6 +123,16 @@ background-color: var(--primary-color);
 #contact .table-dark * {
   background-color: transparent;
 }
+.student-discount {
+  background-color: var(--highlight-color);
+  font-weight: bold;
+  color: white;
+  display: block;
+  max-width: 300px;
+  margin: auto;
+  padding: 5px 10px;
+  font-size: 0.8rem;
+}
 /*.container ,
 .row {
   border: 2px solid black;
@@ -146,7 +163,7 @@ background-color: var(--primary-color);
    @media screen and (min-width: 1200px) {
     /* make all service cards the same height for consistency */
     #services .card-body {
-      min-height: 220åx;
+      min-height: 220px;
     }
   }
 
@@ -157,3 +174,6 @@ background-color: var(--primary-color);
       min-height: 195px;
     }
   }
+
+
+  
